@@ -1,7 +1,6 @@
 import aboutMainPage from '../assets/Images/aboutMainImage.png'
 import apj from '../assets/Images/apj.png'
 import bill from '../assets/Images/billGates.png'
-import einstein from '../assets/Images/einstein.png'
 import nelson from '../assets/Images/nelsonMandela.png'
 import steve from '../assets/Images/steveJobs.png'
 import HomeLayout from "../layouts/HomeLayout"
