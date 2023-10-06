@@ -89,7 +89,7 @@ function Signup() {
 
 
 
-        const response = await dispatch(createAccount(signupDetails))
+        const response = await dispatch(createAccount(formData))
         console.log(response);
 
         if(response?.payload?.data) {
