@@ -4,6 +4,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 
 import Aboutus from './pages/Aboutus'
+import Contact from './pages/Contact'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Signin from './pages/Signin'
@@ -20,6 +21,7 @@ function App() {
       <Route path='/about' element={<Aboutus />}/>
       <Route path='/signup' element={<Signup />}/>
       <Route path='/signin' element={<Signin />}/>
+      <Route path='/contact' element={<Contact />}/>
       <Route path='*' element={<NotFound />}/>
     </Routes>
     
