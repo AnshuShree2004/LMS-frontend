@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux"
 
 import HomeLayout from "../../layouts/HomeLayout"
 import { getAllCourses } from "../../redux/slices/courseSlice"
-import CourseCard from "./CourseCard"
+import CourseCard from "../../components/CourseCard"
 
 function CourseList() {
 
