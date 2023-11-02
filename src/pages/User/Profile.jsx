@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 import HomeLayout from "../../layouts/HomeLayout";
-import { Link } from "react-router-dom";
 
 function Profile() {
 
